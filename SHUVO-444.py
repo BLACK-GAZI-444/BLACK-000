@@ -33,7 +33,7 @@ totaldmp = 0;count = 0;loop = 0;oks = [];cps = [];id = [];ps = [];sid = [];total
 import random
 
 def generate_random_user00_agent():
-    for _ in range(100):
+    for _ in range(50):
         user_agent_template = (
             '[FBAN/FB4A;FBAV/{version};FBBV/{version_code};FBDM/{device_density};FBLC/{language};FBRV/{revision};'
             'FBCR/{carrier};FBMF/{manufacturer};FBBD/{brand};FBPN/{package};FBDV/{device};FBSV/{os_version};'
@@ -285,6 +285,7 @@ predefined_user_agents = [
    "Dalvik/2.1.0 (Linux; U; Android 12; moto g power (2022) Build/S3RQS32.20-42-10-11-2-5) [FBAN/Orca-Android;FBAV/464.0.0.44.109;FBPN/com.facebook.orca;FBLC/en_US;FBBV/615296909;FBCR/null;FBMF/motorola;FBBD/motorola;FBDV/moto g power (2022);FBSV/12;FBCA/arm64-v8a:null;FBDM/{density=1.75,width=720,height=1481};FB_FW/1;]", 
    "Dalvik/2.1.0 (Linux; U; Android 12; Infinix X6516 Build/SP1A.210812.001) [FBAN/EMA;FBBV/613121005;FBAV/412.0.0.8.106;FBDV/Infinix X6516;FBSV/12;FBCX/OkHttp3;FBDM/{density=2.0}]", 
    "Dalvik/2.1.0 (Linux; U; Android 12; CPH2477 Build/SP1A.210812.016) [FBAN/Orca-Android;FBAV/464.0.0.44.109;FBPN/com.facebook.orca;FBLC/en_US;FBBV/615296909;FBCR/Vodafone KI;FBMF/OPPO;FBBD/OPPO;FBDV/CPH2477;FBSV/12;FBCA/arm64-v8a:null;FBDM/{density=2.0,width=720,height=1460};FB_FW/1;]"]
+
 # Print all predefined user agents
 for agent in predefined_user_agents:
     print(agent)
